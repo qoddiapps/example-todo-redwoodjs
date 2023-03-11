@@ -14,6 +14,10 @@
     "extends": "@redwoodjs/eslint-config",
     "root": true
   },
+  "scripts": {
+    "build": "rw build",
+    "start": "node index.js"
+},
   "engines": {
     "node": ">=16",
     "yarn": ">=1.15 <2"
